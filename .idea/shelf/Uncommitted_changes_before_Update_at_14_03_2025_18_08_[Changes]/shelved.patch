@@ -1,0 +1,44 @@
+Index: 1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># This is a sample Python script.\r\n\r\n# Press Shift+F10 to execute it or replace it with your code.\r\n# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.\r\n\r\n\r\ndef print_hi(name):\r\n    # Use a breakpoint in the code line below to debug your script.\r\n    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.\r\n\r\n\r\n# Press the green button in the gutter to run the script.\r\nif __name__ == '__main__':\r\n    print_hi('PyCharm')\r\n\r\n# See PyCharm help at https://www.jetbrains.com/help/pycharm/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/1.py b/1.py
+--- a/1.py	(revision 4d13737efdbe38430c335eab9fa4e2e94fd60163)
++++ b/1.py	(date 1741968249493)
+@@ -1,16 +1,18 @@
+-# This is a sample Python script.
+-
+-# Press Shift+F10 to execute it or replace it with your code.
+-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
++def S(score):
++    if 0 <= score <= 49:
++        return "Незадовільно"
++    elif 50 <= score <= 69:
++        return "Задовільно"
++    elif 70 <= score <= 89:
++        return "Добре"
++    elif 90 <= score <= 100:
++        return "Відмінно"
++    else:
++        return "Некоректний бал"
+ 
+-
+-def print_hi(name):
+-    # Use a breakpoint in the code line below to debug your script.
+-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+-
+-
+-# Press the green button in the gutter to run the script.
+-if __name__ == '__main__':
+-    print_hi('PyCharm')
+-
+-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
++# Введення оцінки користувачем
++try:
++    score = int(input("Введіть кількість балів (0-100): "))
++    print("Ваша оцінка:", S(score))
++except ValueError:
++    print("введіть число від 0 до 100")

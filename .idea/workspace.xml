@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a47609f8-c516-415f-b349-6503127c7136" name="Changes" comment="дз">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/OOP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_oop.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_oop.py" afterDir="false" />
-    </list>
+    <list default="true" id="a47609f8-c516-415f-b349-6503127c7136" name="Changes" comment="дз" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +77,7 @@
       <workItem from="1741793767604" duration="28000" />
       <workItem from="1741793835300" duration="57000" />
       <workItem from="1741968090488" duration="842000" />
-      <workItem from="1742023138242" duration="7545000" />
+      <workItem from="1742023138242" duration="7852000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -100,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742029914322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="дз">
+      <option name="closed" value="true" />
+      <created>1742032508613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742032508613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
