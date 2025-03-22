@@ -50,3 +50,4 @@ for k in range(7):
     if st1.alive==False:
         break
     st1.studylife(k)
+
