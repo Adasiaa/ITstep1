@@ -32,3 +32,4 @@ p3=Pupils("Ігор", 155)
 print(p1.count,"учасника змагань")
 print(bool(p2))
 print(len(p3))
+
