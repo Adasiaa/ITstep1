@@ -141,3 +141,4 @@ if site:
     obj.buyProducts()
 else:
     print("Жодної інформації не отримано")
+ 
